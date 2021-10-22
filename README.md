@@ -1,1 +1,1 @@
-Master project for ZTM course
+Master project for 'Dev Pandaren' course
