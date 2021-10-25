@@ -2,9 +2,11 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-dark-gray: #10100e;
+  --color-yellow: #ffff00;
   --spacing-medium: 20px;
   --border-radius-small: 3px;
   --font-family-main: sans-serif;
+  --font-size-header: 26px;
 }
 
 body {
