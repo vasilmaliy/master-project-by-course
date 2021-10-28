@@ -1,3 +1,15 @@
 .header {
   color: aquamarine;
 }
+
+.wrapper {
+  max-width: var(--width-max);
+  margin: auto;
+  padding: var(--spacing-large) 20px;
+}
+
+@media  screen and (max-width: 1400px) {
+  .wrapper {
+    padding: var(--spacing-large) var(--spacing-large);
+  }
+}
