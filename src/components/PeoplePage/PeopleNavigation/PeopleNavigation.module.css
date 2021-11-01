@@ -1,10 +1,9 @@
-.button {
-  padding: 10px 20px;
-  font-size: 18px;
-  margin: 10px;
-  position: relative;
+.container {
+  display: flex;
+  justify-content: center;
 }
 
-.link {
-  width: 100%;
+
+.buttons {
+  margin: var(--spacing-small);
 }

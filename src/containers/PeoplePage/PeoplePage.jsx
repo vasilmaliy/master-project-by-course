@@ -61,7 +61,8 @@ const PeoplePage = ({ setErrorApi }) => {
 }
 
 PeoplePage.propTypes = {
-  setErrorApi: PropTypes.func
+  match: PropTypes.object,
+  setErrorApi: PropTypes.func,
 }
 
 export default withErrorApi(PeoplePage);
