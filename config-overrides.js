@@ -11,9 +11,11 @@ module.exports = function override(config, env) {
     '@styles': 'src/styles',
     '@routes': 'src/routes',
     '@static': 'src/static',
+    '@context': 'src/context',
     '@hooks': 'src/hooks',
     '@ui': 'src/components/UI',
-  })(config);
+    '@store': 'src/store',
+    })(config);
 
   return config;
 }

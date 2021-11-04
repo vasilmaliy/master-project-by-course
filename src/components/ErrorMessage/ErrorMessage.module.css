@@ -1,3 +1,12 @@
+.error_message__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  width: 100%;
+}
+
 .text {
   width: 600px;
   margin: auto;
@@ -11,4 +20,8 @@
   -webkit-text-stroke-color: var(--color-yellow);
   -webkit-text-stroke-width: .5px;
   -webkit-text-fill-color: transparent;
+}
+
+.video {
+  margin: 10px auto;
 }
